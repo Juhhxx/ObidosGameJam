@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 2289375791141564541}
   - component: {fileID: 5891291744279991595}
   - component: {fileID: 7897058653360347948}
+  - component: {fileID: 2097474821838783518}
+  - component: {fileID: 5677921867225527739}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -187,3 +189,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe780767c689ab24dad1914fcf05123f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waterBar: {fileID: 0}
+  staminaBar: {fileID: 0}
+  cleaningThis: {fileID: 0}
+--- !u!114 &2097474821838783518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059720716985773636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 107e58569992d0445b6c1b523649b20e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterBar: {fileID: 0}
+  waterAmount: 100
+  usage: 0
+  refillAmount: 0
+--- !u!114 &5677921867225527739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059720716985773636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4beb0deeaa816f40b4268dcf27d2165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  staminaBar: {fileID: 0}
+  staminaAmount: 100
+  usage: 5
+  refillAmount: 10
