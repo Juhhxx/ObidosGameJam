@@ -66,4 +66,8 @@ public class Cleaning : MonoBehaviour
             mAnimator.Play("water_refill");
         }
     }
+
+    public void drinkGinja() {
+        mAnimator.Play("ginginha");
+    }
 }
